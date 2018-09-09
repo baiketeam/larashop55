@@ -25,6 +25,8 @@ Route::group(['middleware' => 'auth'], function() {
     // 邮箱必须是激活状态才可以操作的内容开始
     Route::group(['middleware' => 'email_verified'], function() {
         Route::get('user_addresses', 'UserAddressesController@index')->name('user_addresses.index');
+        Route::get('user_addresses/create', 'UserAddressesController@create')->name('user_addresses.create');
+        Route::post('user_addresses', 'UserAddressesController@store')->name('user_addresses.store');
     });
     // 结束
 });

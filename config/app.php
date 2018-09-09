@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'zh-CN',
 
     // 工厂文件语言设置,自行添加
     'faker_locale' => 'zh_CN',
