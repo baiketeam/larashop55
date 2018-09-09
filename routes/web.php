@@ -24,9 +24,7 @@ Route::group(['middleware' => 'auth'], function() {
     Route::get('/email_verification/send', 'EmailVerificationController@send')->name('email_verification.send');
     // 邮箱必须是激活状态才可以操作的内容开始
     Route::group(['middleware' => 'email_verified'], function() {
-        Route::get('/test', function() {
-            return 'Your email is verified';
-        });
+        Route::get('user_addresses', 'UserAddressesController@index')->name('user_addresses.index');
     });
     // 结束
 });
