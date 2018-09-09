@@ -12,7 +12,7 @@ return [
     |
     */
     // 站点标题
-    'name' => 'LaraShop',
+    'name' => 'Lara Shop',
 
     /*
     |--------------------------------------------------------------------------
@@ -24,7 +24,7 @@ return [
     |
     */
     // 页面顶部logo
-    'logo' => '<b>Laravel</b> shop',
+    'logo' => '<b>Laravel</b> Shop',
 
     /*
     |--------------------------------------------------------------------------
@@ -37,7 +37,7 @@ return [
     |
     */
     // 页面顶部小LOGO
-    'logo-mini' => '<b>La</b>',
+    'logo-mini' => '<b>LS</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return [
     |
     */
     // Laravel-Admin 页面标题
-    'title' => 'LaraShop',
+    'title' => 'LaraShop管理后台',
 
     /*
     |--------------------------------------------------------------------------
@@ -133,7 +133,8 @@ return [
     'upload' => [
         // 对应 filesystem.php 中的 disks
         // Disk in `config/filesystem.php`.
-        'disk' => 'admin',
+        // 'disk' => 'admin',
+        'disk' => 'public',
 
         // Image and file upload path under the disk above.
         'directory' => [
