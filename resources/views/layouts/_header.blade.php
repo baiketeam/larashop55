@@ -38,6 +38,9 @@
                                 <a href="{{ route('products.favorites') }}">我的收藏</a>
                             </li>
                             <li>
+                                <a href="{{ route('orders.index') }}">我的订单</a>
+                            </li>
+                            <li>
                                 <a href="{{ route('logout') }}"
                                     onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
