@@ -11,11 +11,11 @@ return [
     ],
 
     'wechat' => [
-        'app_id'      => '',
-        'mch_id'      => '',
-        'key'         => '',
-        'cert_client' => '',
-        'cert_key'    => '',
+        'app_id'      => 'wxe973a8c5385f16ef',
+        'mch_id'      => '1344618801',
+        'key'         => 'PUlYEtupxIQSMvojv3Jf8Xz8WFtA8t6U',
+        'cert_client' => resource_path('wechat_pay/apiclient_cert.pem'),
+        'cert_key'    => resource_path('wechat_pay/apiclient_key.pem'),
         'log'         => [
             'file' => storage_path('logs/wechat_pay.log'),
         ],
