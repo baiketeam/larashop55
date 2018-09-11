@@ -11,3 +11,4 @@ npm-debug.log
 yarn-error.log
 .env
 /resources/wechat_pay
+/config/pay.php
