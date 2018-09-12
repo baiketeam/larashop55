@@ -15,6 +15,7 @@ class Handler extends ExceptionHandler
     // 屏蔽指定错误
     protected $dontReport = [
         InvalidRequestException::class,
+        CouponCodeUnavailableException::class,
     ];
 
     /**
